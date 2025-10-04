@@ -13,15 +13,21 @@ public class NewBehaviourScript : MonoBehaviour
         string variable2 = " World";
 
 
-        Debug.Log(variable1 + variable2); 
-    
-        
+        Debug.Log(variable1 + variable2);
+
+
     }
+
+    
+
+
 
     // Update is called once per frame
     void Update()
     {
         
+
+         
     }
 
 }
