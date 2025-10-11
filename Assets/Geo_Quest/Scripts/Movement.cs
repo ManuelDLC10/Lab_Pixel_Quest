@@ -11,17 +11,50 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     public int speed = 5;
     public string nextLevel = "Scene_2";
+    public SpriteRenderer color;
 
     // Start is called before the first frame update
     void Start()
     {
+    color = GetComponent<SpriteRenderer>();
+        
         rb = GetComponent<Rigidbody2D>();
     }
+
 
     // Update is called once per frame
     void Update()
 
     {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            color.color = Color.red;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+
+        {
+            color.color = Color.blue;
+
+        }
+
+        if(Input.GetKeyDown(KeyCode.Alpha3))
+
+        {
+            color.color = Color.green;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        { 
+            color.color = Color.yellow;
+        }
+
+        if (Input.GetKeyDown (KeyCode.Alpha5))
+        {
+            color.color = Color.white;
+        }
+
         float xInput = Input.GetAxis("Horizontal");
         Debug.Log(xInput);
 
