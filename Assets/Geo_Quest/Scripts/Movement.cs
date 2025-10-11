@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
-   
-    
-    
+
+
+
     private Rigidbody2D rb;
     public int speed = 5;
+    public string nextLevel = "Scene_2";
 
     // Start is called before the first frame update
     void Start()
@@ -20,22 +22,42 @@ public class Movement : MonoBehaviour
     void Update()
 
     {
-       
-        
-        
         float xInput = Input.GetAxis("Horizontal");
         Debug.Log(xInput);
-      
+
         rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
-        
+    }
+
+
+
+    private void OnTriggerEnter2D(Collider2D collision) 
     
-    }
-
-
-    private void OnTriggerEnter(Collider2D collision)
+    
     {
-        Debug.Log("Hit");
+        switch (collision.tag)
+        {
+            case "Death":
+                {
+                   string thisLevel = SceneManager.GetActiveScene().name; 
+                    SceneManager.LoadScene(thisLevel);
+                    break;
+                    Debug.Log("Player Has Died");
+                    break;
+                }
+            case "Finish":
+                {
+                    SceneManager.LoadScene(nextLevel);
+                    break;
+                }
+
+
+        }
+        
+        Debug.Log(collision.tag);
     }
+
+  
+
 
 
 
