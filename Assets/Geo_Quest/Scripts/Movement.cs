@@ -40,7 +40,7 @@ public class Movement : MonoBehaviour
                 {
                    string thisLevel = SceneManager.GetActiveScene().name; 
                     SceneManager.LoadScene(thisLevel);
-                    break;
+                    
                     Debug.Log("Player Has Died");
                     break;
                 }
