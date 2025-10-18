@@ -11,7 +11,7 @@ public class HW2PlayerShoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             GameObject bullet = Instantiate(prefab, bulletSpawn.position, Quaternion.identity);
-            bullet.transform.SetParent(bulletTrash);
+            //bullet.transform.SetParent(bulletTrash);
         }
     }
 }
