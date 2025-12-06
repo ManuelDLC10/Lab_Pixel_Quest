@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: slash-alpha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555655ddb5dd3a54cbaf15ef89d4d7c2
+      internalID: 1116339774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d595a59236974ea58571e92479600
+      internalID: -1205194453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a5bec52995c30419681fb2045f1feb
+      internalID: 436439978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f304bbec8372d47b791334ad4f8ec9
+      internalID: 682255565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efe847fe4b134043917dd61f37fde68
+      internalID: 210862917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512ab479889316a4dabe2776dddb7e7c
+      internalID: 1941475989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slash-alpha_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a1adfe0e934244b9b0ae32a17f1683
+      internalID: 976029044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +253,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      slash-alpha_0: 1116339774
+      slash-alpha_1: -1205194453
+      slash-alpha_10: 987622541
+      slash-alpha_11: 2095905216
+      slash-alpha_12: -832281313
+      slash-alpha_13: -1137115320
+      slash-alpha_14: 455471302
+      slash-alpha_15: -1561530687
+      slash-alpha_16: -336158239
+      slash-alpha_17: 619012655
+      slash-alpha_18: -1623538952
+      slash-alpha_19: 197512899
+      slash-alpha_2: 436439978
+      slash-alpha_20: -1156638498
+      slash-alpha_21: -1634571374
+      slash-alpha_22: 978674203
+      slash-alpha_23: 2103638546
+      slash-alpha_24: 260306510
+      slash-alpha_25: 818437904
+      slash-alpha_26: -474062131
+      slash-alpha_27: -658992935
+      slash-alpha_28: 1911126550
+      slash-alpha_29: 1768890220
+      slash-alpha_3: 682255565
+      slash-alpha_30: 1865108771
+      slash-alpha_31: 1438746210
+      slash-alpha_4: 210862917
+      slash-alpha_5: 1941475989
+      slash-alpha_6: 976029044
+      slash-alpha_7: 423646312
+      slash-alpha_8: 1276571183
+      slash-alpha_9: 1305996583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
